@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 25px;
+}
+.reset {
+  background-color: rgb(196, 174, 174);
+  cursor: pointer;
+  transition: background-color 250ms linear;
+  border: none;
+}
+.button {
+  background-color: rgb(186, 205, 235);
+  cursor: pointer;
+  transition: background-color 250ms linear;
+  border: none;
+}
+.button:hover {
+  background-color: rgb(157, 177, 209);
+}
+.reset:hover {
+  background-color: rgb(175, 149, 149);
+}
