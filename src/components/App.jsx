@@ -51,7 +51,7 @@ export const App = () => {
         />
         <ContactList
           contacts={filtredContacts}
-          handleClick={handleDeleteClick}
+          handleDeleteClick={handleDeleteClick}
         />
       </div>
     </>
