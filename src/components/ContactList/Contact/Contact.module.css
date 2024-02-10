@@ -6,8 +6,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.list {
-}
+
 .item {
   display: flex;
   column-gap: 8px;

@@ -36,7 +36,7 @@ export const App = () => {
     actions.resetForm();
   };
 
-  const handleClick = e => {
+  const handleDeleteClick = e => {
     setContacts(contacts.filter(contact => contact.id !== e.target.dataset.id));
   };
 
@@ -49,7 +49,10 @@ export const App = () => {
           handleChange={handleChangeSearch}
           searchValue={searchValue}
         />
-        <ContactList contacts={filtredContacts} handleClick={handleClick} />
+        <ContactList
+          contacts={filtredContacts}
+          handleClick={handleDeleteClick}
+        />
       </div>
     </>
   );
